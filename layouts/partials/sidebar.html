@@ -26,7 +26,7 @@
       <div class="tab-post-item">
         {{ with .Params.thumbnail }}
         <a href="{{ $.RelPermalink }}" class="tab-post-img">
-          <img src="{{ . | absURL }}" alt="{{ $.Title }}" width="52" height="52" loading="lazy" />
+          <img src="{{ trimPrefix "/" . | absURL }}" alt="{{ $.Title }}" width="52" height="52" loading="lazy" />
         </a>
         {{ else }}
         <div class="tab-post-img tab-post-img--empty"></div>
@@ -43,7 +43,7 @@
       <div class="tab-post-item">
         {{ with .Params.thumbnail }}
         <a href="{{ $.RelPermalink }}" class="tab-post-img">
-          <img src="{{ . | absURL }}" alt="{{ $.Title }}" width="52" height="52" loading="lazy" />
+          <img src="{{ trimPrefix "/" . | absURL }}" alt="{{ $.Title }}" width="52" height="52" loading="lazy" />
         </a>
         {{ else }}
         <div class="tab-post-img tab-post-img--empty"></div>
