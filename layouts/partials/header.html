@@ -14,16 +14,13 @@
 
     <nav class="main-nav" aria-label="Menu principal">
       <ul class="nav-menu" role="menubar">
-        {{ range .Site.Menus.main }}
-          {{ $url := .URL }}
-          {{ $active := false }}
-          {{ if eq $url "/" }}
-            {{ $active = $.IsHome }}
-          {{ else if hasPrefix $.RelPermalink $url }}
-            {{ $active = true }}
-          {{ end }}
+        <li class="nav-item{{ if .IsHome }} is-active{{ end }}" role="menuitem">
+          <a href="{{ .Site.BaseURL }}" class="nav-link">HOME</a>
+        </li>
+        {{ range .Site.Taxonomies.categories.Alphabetical }}
+          {{ $active := hasPrefix $.RelPermalink .Page.RelPermalink }}
           <li class="nav-item{{ if $active }} is-active{{ end }}" role="menuitem">
-            <a href="{{ $url }}" class="nav-link">{{ .Name }}</a>
+            <a href="{{ .Page.RelPermalink }}" class="nav-link">{{ .Page.Title }}</a>
           </li>
         {{ end }}
       </ul>
@@ -39,8 +36,9 @@
 
   <nav class="mobile-nav" id="mobile-nav" aria-label="Menu mobile" aria-hidden="true">
     <ul class="mobile-menu">
-      {{ range .Site.Menus.main }}
-      <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+      <li><a href="{{ .Site.BaseURL }}">HOME</a></li>
+      {{ range .Site.Taxonomies.categories.Alphabetical }}
+      <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></li>
       {{ end }}
     </ul>
   </nav>
