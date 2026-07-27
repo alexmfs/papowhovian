@@ -6,13 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} &ndash; {{ .Site.Title }}{{ end }}</title>
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else with .Params.excerpt }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
-  <link rel="shortcut icon" href="{{ "/images/favico.png" | relURL }}" />
+  <link rel="shortcut icon" href="{{ "images/favico.png" | relURL }}" />
   <!-- Google Fonts: Open Sans -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Nixie+One&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
   <!-- Styles -->
-  <link rel="stylesheet" href="{{ "/css/main.css" | relURL }}" />
+  <link rel="stylesheet" href="{{ "css/main.css" | relURL }}" />
   <!-- Open Graph -->
   <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}" />
   <meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}" />
@@ -36,6 +36,6 @@
   {{ partial "pre-footer.html" . }}
   {{ partial "footer.html" . }}
 
-  <script src="{{ "/js/main.js" | relURL }}"></script>
+  <script src="{{ "js/main.js" | relURL }}"></script>
 </body>
 </html>
