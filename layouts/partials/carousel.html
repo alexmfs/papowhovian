@@ -1,0 +1,35 @@
+{{ $id := .id }}
+{{ $posts := .posts }}
+<div class="carousel" id="carousel-{{ $id }}" role="region" aria-roledescription="carousel">
+
+  {{ range $i, $p := $posts }}
+  <div class="carousel-slide{{ if eq $i 0 }} is-active{{ end }}"
+       role="group" aria-roledescription="slide"
+       aria-hidden="{{ if eq $i 0 }}false{{ else }}true{{ end }}">
+    <div class="slide-item">
+      <a class="slide-item-link" href="{{ $p.RelPermalink }}">
+        {{ with $p.Params.thumbnail }}
+        <img src="{{ . | relURL }}" alt="{{ $p.Title }}" loading="lazy" />
+        {{ else }}
+        <div class="slide-item-img-placeholder"></div>
+        {{ end }}
+      </a>
+      <div class="slide-item-overlay">
+        <h2 class="slide-item-title">{{ $p.Title }}</h2>
+        <div class="slide-item-excerpt">{{ $p.Summary }}</div>
+      </div>
+    </div>
+  </div>
+  {{ end }}
+
+  <div class="carousel-dots" aria-label="Navegação dos slides">
+    {{ range $i, $p := $posts }}
+    <button class="carousel-dot{{ if eq $i 0 }} is-active{{ end }}"
+            aria-label="Slide {{ add $i 1 }}"
+            data-index="{{ $i }}"></button>
+    {{ end }}
+  </div>
+
+  <button class="carousel-arrow carousel-arrow--prev" aria-label="Slide anterior">&#8249;</button>
+  <button class="carousel-arrow carousel-arrow--next" aria-label="Próximo slide">&#8250;</button>
+</div>

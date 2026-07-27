@@ -21,6 +21,34 @@
       }
     });
   }
+  // Carousels
+  document.querySelectorAll('.carousel').forEach(function (carousel) {
+    var slides  = carousel.querySelectorAll('.carousel-slide');
+    var dots    = carousel.querySelectorAll('.carousel-dot');
+    var btnPrev = carousel.querySelector('.carousel-arrow--prev');
+    var btnNext = carousel.querySelector('.carousel-arrow--next');
+    var current = 0;
+
+    if (!slides.length) return;
+
+    function goTo(index) {
+      slides[current].classList.remove('is-active');
+      slides[current].setAttribute('aria-hidden', 'true');
+      dots[current].classList.remove('is-active');
+      current = (index + slides.length) % slides.length;
+      slides[current].classList.add('is-active');
+      slides[current].setAttribute('aria-hidden', 'false');
+      dots[current].classList.add('is-active');
+    }
+
+    dots.forEach(function (dot, i) {
+      dot.addEventListener('click', function () { goTo(i); });
+    });
+
+    if (btnPrev) btnPrev.addEventListener('click', function () { goTo(current - 1); });
+    if (btnNext) btnNext.addEventListener('click', function () { goTo(current + 1); });
+  });
+
   // Sidebar tabs
   document.querySelectorAll('[data-tabs]').forEach(function (tabs) {
     var btns   = tabs.querySelectorAll('.tab-btn');

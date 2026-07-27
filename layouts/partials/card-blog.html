@@ -1,17 +1,15 @@
 <div class="card-blog">
+  {{ if .Params.thumbnail }}
   <a class="card-blog-img" href="{{ .RelPermalink }}">
-    {{ with .Params.thumbnail }}
-    <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy" />
-    {{ else }}
-    <div class="card-blog-img-placeholder"></div>
-    {{ end }}
+    <img src="{{ .Params.thumbnail | relURL }}" alt="{{ .Title }}" loading="lazy" />
   </a>
+  {{ end }}
   <div class="card-blog-body">
-    <h4 class="card-blog-title">{{ .Title }}</h4>
+    <h4 class="card-blog-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
     <p class="card-blog-meta">
-      <span class="meta-date">{{ .Date.Format "January 2, 2006" }}</span>
+      <span class="meta-date">{{ partial "date-pt.html" .Date }}</span>
       <span class="meta-sep">|</span>
-      <span class="meta-comments">0 Comments</span>
+      <span class="meta-comments">0 Comentários</span>
     </p>
     <div class="card-blog-excerpt">
       {{ .Summary }}

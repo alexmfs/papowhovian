@@ -4,7 +4,7 @@
   <nav class="post-nav-bar">
     {{ with .NextInSection }}
     <a class="post-nav-link" href="{{ .RelPermalink }}">
-      <span class="post-nav-arrow">&#8250;</span> Previous
+      <span class="post-nav-arrow">&#8250;</span> Anterior
     </a>
     {{ end }}
   </nav>
@@ -20,15 +20,15 @@
   </div>
 
   <div class="post-meta-bar">
-    <span>By <strong>{{ .Params.author | default "Pamella Benatti" }}</strong></span>
+    <span>Por <strong>{{ .Params.author | default "Pamella Benatti" }}</strong></span>
     <span class="meta-sep">|</span>
-    <span class="meta-date">{{ .Date.Format "January 2, 2006" }}</span>
+    <span class="meta-date">{{ partial "date-pt.html" .Date }}</span>
     <span class="meta-sep">|</span>
     {{ range .Params.categories }}
     <a class="meta-cat" href="{{ $.Site.BaseURL }}categories/{{ . | urlize }}/">{{ . }}</a>
     {{ end }}
     <span class="meta-sep">|</span>
-    <span>0 Comments</span>
+    <span>0 Comentários</span>
   </div>
 
   <div class="post-share">
@@ -45,7 +45,7 @@
 
   <section class="related-posts">
     <div class="section-heading">
-      <h3 class="section-title">Related Posts</h3>
+      <h3 class="section-title">Posts Relacionados</h3>
       <div class="section-divider"></div>
     </div>
     <div class="related-posts-list">
@@ -62,9 +62,9 @@
           {{ end }}
           <h4 class="related-post-title">{{ .Title }}</h4>
           <p class="related-post-meta">
-            <span class="meta-date">{{ .Date.Format "January 2, 2006" }}</span>
+            <span class="meta-date">{{ partial "date-pt.html" .Date }}</span>
             <span class="meta-sep">|</span>
-            <span>0 Comments</span>
+            <span>0 Comentários</span>
           </p>
         </div>
         {{ end }}
@@ -74,21 +74,21 @@
 
   <section class="comment-form-section">
     <div class="section-heading">
-      <h3 class="section-title">Leave A Comment</h3>
+      <h3 class="section-title">Deixe um Comentário</h3>
       <div class="section-divider"></div>
     </div>
     <form class="comment-form" method="post">
-      <textarea class="comment-textarea" name="comment" placeholder="Comment..."></textarea>
+      <textarea class="comment-textarea" name="comment" placeholder="Comentário..."></textarea>
       <div class="comment-fields">
-        <input class="comment-input" type="text" name="name" placeholder="Name (required)" required />
-        <input class="comment-input" type="email" name="email" placeholder="Email (required)" required />
-        <input class="comment-input" type="url" name="url" placeholder="Website" />
+        <input class="comment-input" type="text" name="name" placeholder="Nome (obrigatório)" required />
+        <input class="comment-input" type="email" name="email" placeholder="E-mail (obrigatório)" required />
+        <input class="comment-input" type="url" name="url" placeholder="Site" />
       </div>
       <label class="comment-save-label">
         <input type="checkbox" name="save_data" />
         Salvar meus dados neste navegador para a próxima vez que eu comentar.
       </label>
-      <button type="submit" class="comment-submit">Post Comment</button>
+      <button type="submit" class="comment-submit">Publicar Comentário</button>
     </form>
   </section>
 

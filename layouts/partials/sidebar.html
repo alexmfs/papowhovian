@@ -1,5 +1,5 @@
 <div class="sidebar-search">
-  <input class="sidebar-search-input" type="text" placeholder="Search ..." aria-label="Buscar" />
+  <input class="sidebar-search-input" type="text" placeholder="Pesquisar..." aria-label="Buscar" />
   <button class="sidebar-search-btn" type="button" aria-label="Buscar">
     <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
       <circle cx="6" cy="6" r="5" stroke="white" stroke-width="2"/>
@@ -15,7 +15,7 @@
 <div class="sidebar-tabs" data-tabs>
   <div class="tabs-nav" role="tablist">
     <button class="tab-btn is-active" role="tab" data-tab="popular" aria-selected="true">Popular</button>
-    <button class="tab-btn" role="tab" data-tab="recent" aria-selected="false">Recent</button>
+    <button class="tab-btn" role="tab" data-tab="recent" aria-selected="false">Recentes</button>
     <button class="tab-btn tab-btn--icon" role="tab" data-tab="rss" aria-label="RSS" aria-selected="false">
       {{ partial "icons/rss.html" }}
     </button>
@@ -33,7 +33,7 @@
         {{ end }}
         <div class="tab-post-body">
           <a href="{{ .RelPermalink }}" class="tab-post-title">{{ .Title }}</a>
-          <span class="tab-post-date">{{ .Date.Format "January 2, 2006" }}</span>
+          <span class="tab-post-date">{{ partial "date-pt.html" .Date }}</span>
         </div>
       </div>
       {{ end }}
@@ -50,7 +50,7 @@
         {{ end }}
         <div class="tab-post-body">
           <a href="{{ .RelPermalink }}" class="tab-post-title">{{ .Title }}</a>
-          <span class="tab-post-date">{{ .Date.Format "January 2, 2006" }}</span>
+          <span class="tab-post-date">{{ partial "date-pt.html" .Date }}</span>
         </div>
       </div>
       {{ end }}

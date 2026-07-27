@@ -11,9 +11,9 @@
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>
     </h4>
     <p class="card-post-meta">
-      <span class="meta-date">{{ .Date.Format "January 2, 2006" }}</span>
+      <span class="meta-date">{{ partial "date-pt.html" .Date }}</span>
       <span class="meta-sep">|</span>
-      <span class="meta-comments">0 Comments</span>
+      <span class="meta-comments">0 Comentários</span>
     </p>
     <div class="card-post-excerpt">
       {{ .Summary }}

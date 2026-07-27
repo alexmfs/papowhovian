@@ -1,4 +1,4 @@
-baseURL = "https://alexmfs.github.io/papowhovian/"
+baseURL = "http://localhost:1313/"
 locale = "pt-BR"
 title = "Papo Whovian"
 defaultContentLanguage = "pt"
