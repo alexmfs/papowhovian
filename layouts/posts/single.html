@@ -20,12 +20,13 @@
   </div>
 
   <div class="post-meta-bar">
-    <span>Por <strong>{{ .Params.author | default "Pamella Benatti" }}</strong></span>
+    {{ $author := .Params.author | default "Pamella Benatti" }}
+    <span>Por <a class="meta-author" href="{{ $.Site.BaseURL }}author/{{ $author | urlize }}/">{{ $author }}</a></span>
     <span class="meta-sep">|</span>
     <span class="meta-date">{{ partial "date-pt.html" .Date }}</span>
     <span class="meta-sep">|</span>
     {{ range .Params.categories }}
-    <a class="meta-cat" href="{{ $.Site.BaseURL }}categories/{{ . | urlize }}/">{{ . }}</a>
+    <a class="meta-cat" href="{{ $.Site.BaseURL }}category/{{ . | urlize }}/">{{ . }}</a>
     {{ end }}
     <span class="meta-sep">|</span>
     <span>0 Comentários</span>

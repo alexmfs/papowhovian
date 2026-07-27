@@ -1,0 +1,29 @@
+{{ define "main" }}
+<div class="content-full">
+  <form class="contact-form" action="https://formspree.io/f/SEU_ID_AQUI" method="POST">
+
+    <div class="contact-field">
+      <label class="contact-label" for="contact-name">Seu nome (obrigatório)</label>
+      <input class="contact-input" id="contact-name" type="text" name="name" required />
+    </div>
+
+    <div class="contact-field">
+      <label class="contact-label" for="contact-email">Seu e-mail (obrigatório)</label>
+      <input class="contact-input" id="contact-email" type="email" name="email" required />
+    </div>
+
+    <div class="contact-field">
+      <label class="contact-label" for="contact-subject">Assunto</label>
+      <input class="contact-input" id="contact-subject" type="text" name="subject" />
+    </div>
+
+    <div class="contact-field">
+      <label class="contact-label" for="contact-message">Sua mensagem</label>
+      <textarea class="contact-input contact-textarea" id="contact-message" name="message"></textarea>
+    </div>
+
+    <button class="contact-submit" type="submit">ENVIAR</button>
+
+  </form>
+</div>
+{{ end }}

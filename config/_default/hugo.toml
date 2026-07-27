@@ -4,8 +4,13 @@ title = "Papo Whovian"
 defaultContentLanguage = "pt"
 
 [taxonomies]
-  category = "categories"
-  tag = "tags"
+  category = "category"
+  tag = "tag"
+  author = "author"
+
+[permalinks]
+  posts = "/:slug"
+  pages = "/:slug"
 
 [params]
   description = "Sua biblioteca nacional sobre tudo o que rola no universo de Doctor Who"
@@ -31,17 +36,17 @@ defaultContentLanguage = "pt"
 
 [[menus.footer]]
   name = "QUEM SOMOS"
-  url = "/pages/quem-somos/"
+  url = "/quem-somos/"
   weight = 2
 
 [[menus.footer]]
   name = "ANUNCIE"
-  url = "/pages/anuncie/"
+  url = "/anuncie/"
   weight = 3
 
 [[menus.footer]]
   name = "CONTATO"
-  url = "/pages/contato/"
+  url = "/contato/"
   weight = 4
 
 [markup]

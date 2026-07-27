@@ -1,0 +1,9 @@
+{{ define "main" }}
+<div class="content-full">
+  <div class="cat-grid">
+    {{ range .Pages }}
+      {{ partial "card-blog.html" . }}
+    {{ end }}
+  </div>
+</div>
+{{ end }}

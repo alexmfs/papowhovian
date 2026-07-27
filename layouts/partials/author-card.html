@@ -1,0 +1,29 @@
+<div class="author-card">
+  <div class="author-card-top">
+    {{ if .Params.avatar }}
+    <img class="author-avatar" src="{{ .Params.avatar | relURL }}" alt="{{ .Title }}" width="82" height="82" />
+    {{ else }}
+    <div class="author-avatar author-avatar--empty"></div>
+    {{ end }}
+    <div class="author-info">
+      <h2 class="author-heading">About {{ .Title }}</h2>
+      {{ with .Params.bio }}
+      <p class="author-bio">{{ . }}</p>
+      {{ end }}
+    </div>
+  </div>
+  <div class="author-social-bar">
+    <div class="author-social-links">
+      {{ with .Params.facebook }}
+      <a class="author-social-btn" href="{{ . }}" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+        {{ partial "icons/facebook.html" }}
+      </a>
+      {{ end }}
+      {{ with .Params.twitter }}
+      <a class="author-social-btn" href="{{ . }}" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+        {{ partial "icons/twitter.html" }}
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</div>

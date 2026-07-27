@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div class="content-full">
-  <h1 class="cat-grid-heading">{{ .Title }}</h1>
+  {{ partial "author-card.html" . }}
   <div class="cat-grid">
     {{ range .Pages }}
       {{ partial "card-blog.html" . }}
