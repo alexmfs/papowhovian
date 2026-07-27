@@ -157,6 +157,69 @@ ul { list-style: none; }
 .mobile-menu li:last-child a { border-bottom: none; }
 
 /* =========================================
+   Site banner — node 1:33 (home) / 1:331 (páginas internas)
+   ========================================= */
+.site-banner {
+  background: var(--color-blue);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px var(--side-pad);
+  text-align: center;
+}
+
+/* Home hero */
+.hero-title {
+  font-family: var(--font-display);
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 72px;
+  color: var(--color-white);
+}
+
+.hero-subtitle {
+  font-family: var(--font-display);
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 31px;
+  color: var(--color-white);
+  margin-top: 14px;
+  max-width: 1170px;
+}
+
+/* Páginas internas */
+.page-banner-title {
+  font-family: var(--font-display);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  color: var(--color-white);
+}
+
+.page-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 8px;
+  font-family: var(--font-main);
+  font-size: 14px;
+  line-height: 28px;
+  color: #eaeaea;
+}
+
+.breadcrumb-link {
+  color: #eaeaea;
+  text-decoration: none;
+}
+
+.breadcrumb-link:hover { text-decoration: underline; }
+
+.breadcrumb-sep,
+.breadcrumb-current { color: #eaeaea; }
+
+/* =========================================
    Pre-footer (Image+Background — node 1:228)
    Overlay #6666a4 + imagem em parallax (233.67% h, top -66.84%)
    ========================================= */

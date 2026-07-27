@@ -11,7 +11,7 @@
 
   {{ with .Params.thumbnail }}
   <div class="post-thumbnail">
-    <img src="{{ trimPrefix "/" . | absURL }}" alt="{{ $.Title }}" />
+    <img src="{{ strings.TrimPrefix "/" . | absURL }}" alt="{{ $.Title }}" />
   </div>
   {{ end }}
 
@@ -55,7 +55,7 @@
         <div class="related-post-item">
           {{ with .Params.thumbnail }}
           <a href="{{ $.RelPermalink }}" class="related-post-img">
-            <img src="{{ trimPrefix "/" . | absURL }}" alt="{{ $.Title }}" loading="lazy" />
+            <img src="{{ strings.TrimPrefix "/" . | absURL }}" alt="{{ $.Title }}" loading="lazy" />
           </a>
           {{ else }}
           <div class="related-post-img related-post-img--empty"></div>

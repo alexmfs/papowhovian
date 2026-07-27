@@ -42,4 +42,21 @@
       {{ end }}
     </ul>
   </nav>
+
+  {{ if .IsHome }}
+  <div class="site-banner site-banner--hero">
+    <h1 class="hero-title">{{ .Site.Title }}</h1>
+    <p class="hero-subtitle">{{ .Site.Params.sliderText }}</p>
+  </div>
+  {{ else }}
+  <div class="site-banner site-banner--page">
+    <h1 class="page-banner-title">{{ .Title }}</h1>
+    <nav class="page-breadcrumb" aria-label="Breadcrumb">
+      <a class="breadcrumb-link" href="{{ .Site.BaseURL }}">Home</a>
+      <span class="breadcrumb-sep">/</span>
+      <span class="breadcrumb-current">{{ .Title }}</span>
+    </nav>
+  </div>
+  {{ end }}
+
 </header>

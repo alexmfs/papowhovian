@@ -1,7 +1,7 @@
 <div class="slide-item">
   <a class="slide-item-link" href="{{ .RelPermalink }}">
     {{ with .Params.thumbnail }}
-    <img src="{{ trimPrefix "/" . | absURL }}" alt="{{ $.Title }}" loading="lazy" />
+    <img src="{{ strings.TrimPrefix "/" . | absURL }}" alt="{{ $.Title }}" loading="lazy" />
     {{ else }}
     <div class="slide-item-img-placeholder"></div>
     {{ end }}
