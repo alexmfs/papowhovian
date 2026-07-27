@@ -1,0 +1,47 @@
+<header class="site-header" role="banner">
+  <div class="header-inner">
+
+    <div class="header-logo">
+      <a href="{{ "/" | relURL }}" aria-label="{{ .Site.Title }}">
+        <img
+          src="{{ "/logo-papo-whovian.png" | relURL }}"
+          alt="{{ .Site.Title }}"
+          width="229"
+          height="96"
+        />
+      </a>
+    </div>
+
+    <nav class="main-nav" aria-label="Menu principal">
+      <ul class="nav-menu" role="menubar">
+        {{ range .Site.Menus.main }}
+          {{ $url := .URL }}
+          {{ $active := false }}
+          {{ if eq $url "/" }}
+            {{ $active = $.IsHome }}
+          {{ else if hasPrefix $.RelPermalink $url }}
+            {{ $active = true }}
+          {{ end }}
+          <li class="nav-item{{ if $active }} is-active{{ end }}" role="menuitem">
+            <a href="{{ $url }}" class="nav-link">{{ .Name }}</a>
+          </li>
+        {{ end }}
+      </ul>
+    </nav>
+
+    <button class="mobile-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-nav">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+  </div>
+
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Menu mobile" aria-hidden="true">
+    <ul class="mobile-menu">
+      {{ range .Site.Menus.main }}
+      <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+      {{ end }}
+    </ul>
+  </nav>
+</header>

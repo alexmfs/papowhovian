@@ -1,0 +1,18 @@
+{{ define "main" }}
+<article class="content-article">
+  <header class="entry-header">
+    <h1 class="entry-title">{{ .Title }}</h1>
+  </header>
+  <div class="post-grid">
+    {{ range .Pages }}
+    <div class="post-card">
+      <h2 class="post-card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+      {{ with .Params.excerpt }}<p class="post-card-excerpt">{{ . }}</p>{{ end }}
+    </div>
+    {{ end }}
+  </div>
+</article>
+<aside class="sidebar">
+  {{ partial "sidebar.html" . }}
+</aside>
+{{ end }}

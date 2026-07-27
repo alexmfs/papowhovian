@@ -1,0 +1,22 @@
+<div class="card-post">
+  <a class="card-post-img" href="{{ .RelPermalink }}">
+    {{ with .Params.thumbnail }}
+    <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy" />
+    {{ else }}
+    <div class="card-post-img-placeholder"></div>
+    {{ end }}
+  </a>
+  <div class="card-post-body">
+    <h4 class="card-post-title">
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </h4>
+    <p class="card-post-meta">
+      <span class="meta-date">{{ .Date.Format "January 2, 2006" }}</span>
+      <span class="meta-sep">|</span>
+      <span class="meta-comments">0 Comments</span>
+    </p>
+    <div class="card-post-excerpt">
+      {{ .Summary }}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,32 @@
+{{ define "main" }}
+{{ $posts := where .Site.RegularPages "Section" "posts" }}
+
+<article class="content-article">
+  {{ range $i, $p := $posts }}
+    {{ if $i }}<hr class="post-border">{{ end }}
+    {{ partial "card-post.html" $p }}
+  {{ end }}
+</article>
+
+<aside class="sidebar">
+  {{ range first 3 $posts }}
+    {{ partial "card-blog.html" . }}
+  {{ end }}
+</aside>
+
+<div class="slides-section">
+  <div class="slides-row">
+    {{ range first 3 $posts }}
+      {{ partial "slide-item.html" . }}
+    {{ end }}
+  </div>
+</div>
+
+<div class="slides-section">
+  <div class="slides-row">
+    {{ range first 3 (after 3 $posts) }}
+      {{ partial "slide-item.html" . }}
+    {{ end }}
+  </div>
+</div>
+{{ end }}

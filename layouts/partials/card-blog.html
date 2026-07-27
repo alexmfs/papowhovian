@@ -1,0 +1,20 @@
+<div class="card-blog">
+  <a class="card-blog-img" href="{{ .RelPermalink }}">
+    {{ with .Params.thumbnail }}
+    <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy" />
+    {{ else }}
+    <div class="card-blog-img-placeholder"></div>
+    {{ end }}
+  </a>
+  <div class="card-blog-body">
+    <h4 class="card-blog-title">{{ .Title }}</h4>
+    <p class="card-blog-meta">
+      <span class="meta-date">{{ .Date.Format "January 2, 2006" }}</span>
+      <span class="meta-sep">|</span>
+      <span class="meta-comments">0 Comments</span>
+    </p>
+    <div class="card-blog-excerpt">
+      {{ .Summary }}
+    </div>
+  </div>
+</div>

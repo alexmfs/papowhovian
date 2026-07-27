@@ -1,0 +1,66 @@
+<footer class="site-footer" role="contentinfo">
+
+  <!-- Faixa superior: logo + links de navegação -->
+  <div class="footer-top">
+    <div class="footer-top-inner">
+
+      <div class="footer-logo">
+        <a href="{{ "/" | relURL }}" aria-label="{{ .Site.Title }}">
+          <img
+            src="{{ "/logo-papo-whovian.png" | relURL }}"
+            alt="{{ .Site.Title }}"
+            width="229"
+            height="96"
+          />
+        </a>
+      </div>
+
+      <!-- footer-nav: links inline com separadores | em #999, font 15px, line-height 30px (Figma) -->
+      <p class="footer-nav">
+        {{ $menu := .Site.Menus.footer }}
+        {{ range $i, $item := $menu }}
+          <a href="{{ $item.URL }}">{{ $item.Name }}</a>
+          {{ if lt (add $i 1) (len $menu) }}<span class="footer-sep" aria-hidden="true"> | </span>{{ end }}
+        {{ end }}
+      </p>
+
+    </div>
+  </div>
+
+  <!-- Faixa inferior: copyright + ícones sociais -->
+  <div class="footer-bottom">
+    <div class="footer-bottom-inner">
+
+      <p class="footer-copyright">
+        Copyright 2016 - PapoWhovian &nbsp;|&nbsp; Todos os direitos Reservados &nbsp;|&nbsp; Desenvolvido por
+        <a href="https://ultima7.com.br" target="_blank" rel="noopener noreferrer">Ultima7 - Agência Digital</a>
+      </p>
+
+      <div class="social-icons">
+        {{ with .Site.Params.facebook }}
+        <a href="{{ . }}" class="social-btn" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+          {{ partial "icons/facebook.html" }}
+        </a>
+        {{ end }}
+
+        <a href="{{ "/index.xml" | absURL }}" class="social-btn" aria-label="RSS Feed">
+          {{ partial "icons/rss.html" }}
+        </a>
+
+        {{ with .Site.Params.twitter }}
+        <a href="{{ . }}" class="social-btn" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+          {{ partial "icons/twitter.html" }}
+        </a>
+        {{ end }}
+
+        {{ with .Site.Params.tumblr }}
+        <a href="{{ . }}" class="social-btn" target="_blank" rel="noopener noreferrer" aria-label="Tumblr">
+          {{ partial "icons/tumblr.html" }}
+        </a>
+        {{ end }}
+      </div>
+
+    </div>
+  </div>
+
+</footer>

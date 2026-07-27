@@ -1,0 +1,13 @@
+{
+  "name": "papowhovian",
+  "version": "1.0.0",
+  "description": "Site estático Papo Whovian — gerado com Hugo",
+  "scripts": {
+    "dev":   "hugo server --buildDrafts --disableFastRender --port 1313",
+    "build": "hugo --minify",
+    "clean": "hugo --cleanDestinationDir --minify"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

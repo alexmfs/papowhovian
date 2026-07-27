@@ -1,0 +1,85 @@
+<div class="sidebar-search">
+  <input class="sidebar-search-input" type="text" placeholder="Search ..." aria-label="Buscar" />
+  <button class="sidebar-search-btn" type="button" aria-label="Buscar">
+    <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <circle cx="6" cy="6" r="5" stroke="white" stroke-width="2"/>
+      <line x1="10" y1="10" x2="13.5" y2="13.5" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    </svg>
+  </button>
+</div>
+
+<div class="sidebar-section">
+  <h4 class="sidebar-heading">Nos encontre no Facebook</h4>
+</div>
+
+<div class="sidebar-tabs" data-tabs>
+  <div class="tabs-nav" role="tablist">
+    <button class="tab-btn is-active" role="tab" data-tab="popular" aria-selected="true">Popular</button>
+    <button class="tab-btn" role="tab" data-tab="recent" aria-selected="false">Recent</button>
+    <button class="tab-btn tab-btn--icon" role="tab" data-tab="rss" aria-label="RSS" aria-selected="false">
+      {{ partial "icons/rss.html" }}
+    </button>
+  </div>
+  <div class="tabs-content">
+    <div class="tab-panel is-active" id="tab-popular" role="tabpanel">
+      {{ range first 3 (where .Site.RegularPages "Section" "posts") }}
+      <div class="tab-post-item">
+        {{ with .Params.thumbnail }}
+        <a href="{{ $.RelPermalink }}" class="tab-post-img">
+          <img src="{{ . | relURL }}" alt="{{ $.Title }}" width="52" height="52" loading="lazy" />
+        </a>
+        {{ else }}
+        <div class="tab-post-img tab-post-img--empty"></div>
+        {{ end }}
+        <div class="tab-post-body">
+          <a href="{{ .RelPermalink }}" class="tab-post-title">{{ .Title }}</a>
+          <span class="tab-post-date">{{ .Date.Format "January 2, 2006" }}</span>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    <div class="tab-panel" id="tab-recent" role="tabpanel" hidden>
+      {{ range first 3 (where .Site.RegularPages "Section" "posts") }}
+      <div class="tab-post-item">
+        {{ with .Params.thumbnail }}
+        <a href="{{ $.RelPermalink }}" class="tab-post-img">
+          <img src="{{ . | relURL }}" alt="{{ $.Title }}" width="52" height="52" loading="lazy" />
+        </a>
+        {{ else }}
+        <div class="tab-post-img tab-post-img--empty"></div>
+        {{ end }}
+        <div class="tab-post-body">
+          <a href="{{ .RelPermalink }}" class="tab-post-title">{{ .Title }}</a>
+          <span class="tab-post-date">{{ .Date.Format "January 2, 2006" }}</span>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    <div class="tab-panel" id="tab-rss" role="tabpanel" hidden>
+      <p class="tab-rss-link"><a href="{{ "/index.xml" | absURL }}">Feed RSS</a></p>
+    </div>
+  </div>
+</div>
+
+<div class="sidebar-section">
+  <h4 class="sidebar-heading">Categorias</h4>
+  <ul class="sidebar-cat-list">
+    {{ range .Site.Taxonomies.categories.ByCount }}
+    <li class="sidebar-cat-item">
+      <a href="{{ .Page.RelPermalink }}" class="sidebar-cat-link">
+        <span class="sidebar-cat-arrow" aria-hidden="true">&#8250;</span>
+        {{ .Page.Title }}
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+</div>
+
+<div class="sidebar-section">
+  <h4 class="sidebar-heading">Tags</h4>
+  <div class="sidebar-tags">
+    {{ range .Site.Taxonomies.tags.ByCount }}
+    <a href="{{ .Page.RelPermalink }}" class="sidebar-tag">{{ .Page.Title }}</a>
+    {{ end }}
+  </div>
+</div>

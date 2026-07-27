@@ -1,0 +1,100 @@
+{{ define "main" }}
+<article class="content-article post-single">
+
+  <nav class="post-nav-bar">
+    {{ with .NextInSection }}
+    <a class="post-nav-link" href="{{ .RelPermalink }}">
+      <span class="post-nav-arrow">&#8250;</span> Previous
+    </a>
+    {{ end }}
+  </nav>
+
+  {{ with .Params.thumbnail }}
+  <div class="post-thumbnail">
+    <img src="{{ . | relURL }}" alt="{{ $.Title }}" />
+  </div>
+  {{ end }}
+
+  <div class="post-content">
+    {{ .Content }}
+  </div>
+
+  <div class="post-meta-bar">
+    <span>By <strong>{{ .Params.author | default "Pamella Benatti" }}</strong></span>
+    <span class="meta-sep">|</span>
+    <span class="meta-date">{{ .Date.Format "January 2, 2006" }}</span>
+    <span class="meta-sep">|</span>
+    {{ range .Params.categories }}
+    <a class="meta-cat" href="{{ $.Site.BaseURL }}categories/{{ . | urlize }}/">{{ . }}</a>
+    {{ end }}
+    <span class="meta-sep">|</span>
+    <span>0 Comments</span>
+  </div>
+
+  <div class="post-share">
+    <h4 class="post-share-title">Compartilhar esse Post:</h4>
+    <div class="share-buttons">
+      <a class="share-btn" href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+        {{ partial "icons/facebook.html" }}
+      </a>
+      <a class="share-btn" href="https://twitter.com/intent/tweet?url={{ .Permalink }}&text={{ .Title | urlquery }}" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+        {{ partial "icons/twitter.html" }}
+      </a>
+    </div>
+  </div>
+
+  <section class="related-posts">
+    <div class="section-heading">
+      <h3 class="section-title">Related Posts</h3>
+      <div class="section-divider"></div>
+    </div>
+    <div class="related-posts-list">
+      {{ $current := .Permalink }}
+      {{ range first 3 (where .Site.RegularPages "Section" "posts") }}
+        {{ if ne .Permalink $current }}
+        <div class="related-post-item">
+          {{ with .Params.thumbnail }}
+          <a href="{{ $.RelPermalink }}" class="related-post-img">
+            <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy" />
+          </a>
+          {{ else }}
+          <div class="related-post-img related-post-img--empty"></div>
+          {{ end }}
+          <h4 class="related-post-title">{{ .Title }}</h4>
+          <p class="related-post-meta">
+            <span class="meta-date">{{ .Date.Format "January 2, 2006" }}</span>
+            <span class="meta-sep">|</span>
+            <span>0 Comments</span>
+          </p>
+        </div>
+        {{ end }}
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="comment-form-section">
+    <div class="section-heading">
+      <h3 class="section-title">Leave A Comment</h3>
+      <div class="section-divider"></div>
+    </div>
+    <form class="comment-form" method="post">
+      <textarea class="comment-textarea" name="comment" placeholder="Comment..."></textarea>
+      <div class="comment-fields">
+        <input class="comment-input" type="text" name="name" placeholder="Name (required)" required />
+        <input class="comment-input" type="email" name="email" placeholder="Email (required)" required />
+        <input class="comment-input" type="url" name="url" placeholder="Website" />
+      </div>
+      <label class="comment-save-label">
+        <input type="checkbox" name="save_data" />
+        Salvar meus dados neste navegador para a próxima vez que eu comentar.
+      </label>
+      <button type="submit" class="comment-submit">Post Comment</button>
+    </form>
+  </section>
+
+</article>
+
+<aside class="sidebar">
+  {{ partial "sidebar.html" . }}
+</aside>
+{{ end }}
