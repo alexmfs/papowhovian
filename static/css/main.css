@@ -45,11 +45,16 @@ ul { list-style: none; }
    Header
    ========================================= */
 .site-header {
-  background: var(--color-dark);
-  position: sticky;
-  top: 0;
-  z-index: 100;
   width: 100%;
+}
+
+.site-header.is-home {
+  background: url('../images/sky-828648_1920.jpg') center / cover no-repeat;
+  background-attachment: fixed;
+}
+
+.site-header.not-home {
+  background: var(--color-blue);
 }
 
 .header-inner {
@@ -160,7 +165,7 @@ ul { list-style: none; }
    Site banner — node 1:33 (home) / 1:331 (páginas internas)
    ========================================= */
 .site-banner {
-  background: var(--color-blue);
+  background: transparent;
   width: 100%;
   display: flex;
   flex-direction: column;
