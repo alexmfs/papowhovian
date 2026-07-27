@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Biografia Colin Baker"
 date: 2016-04-19T19:58:40
 lastmod: 2017-04-08T07:19:28
@@ -13,6 +13,7 @@ excerpt: "Dando continuidade à série de biografias que estamos postando aqui n
 commentCount: 0
 wpId: 1000
 draft: false
+aliases: ["/2016/04/19/biografia-colin-baker/"]
 ---
 
 [*](http://papowhovian.com.br/wp-content/uploads/2016/02/sexto.jpg)

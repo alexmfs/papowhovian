@@ -4,13 +4,17 @@ title = "Papo Whovian"
 defaultContentLanguage = "pt"
 
 [taxonomies]
-  category = "category"
-  tag = "tag"
+  category = "categories"
+  tag = "tags"
   author = "author"
 
 [permalinks]
-  posts = "/:slug"
-  pages = "/:slug"
+  [permalinks.page]
+    posts = "/:slug"
+    pages = "/:slug"
+  [permalinks.term]
+    categories = "/category/:slug/"
+    tags = "/tag/:slug/"
 
 [params]
   description = "Sua biblioteca nacional sobre tudo o que rola no universo de Doctor Who"

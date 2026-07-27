@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Biografia John Hurt"
 date: 2016-07-03T01:07:29
 lastmod: 2017-04-08T07:19:28
@@ -13,6 +13,7 @@ excerpt: "Eis que depois de algum tempinho vim falar sobre mais um Doutor, ou me
 commentCount: 0
 wpId: 1026
 draft: false
+aliases: ["/2016/07/03/biografia-john-hurt/"]
 ---
 
 [*](http://papowhovian.com.br/wp-content/uploads/2016/02/war.jpg)

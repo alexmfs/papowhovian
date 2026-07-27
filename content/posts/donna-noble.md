@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Donna Noble"
 date: 2017-08-13T15:17:07
 lastmod: 2018-01-04T03:46:09
@@ -13,6 +13,7 @@ excerpt: "A Donna é sem dúvida nenhuma uma das mais queridas companions do Dou
 commentCount: 0
 wpId: 1115
 draft: false
+aliases: ["/2017/08/13/donna-noble/"]
 ---
 
 [*](https://papowhovian.com.br/wp-content/uploads/2017/08/donna-noble-catherine-tate-2.jpeg)

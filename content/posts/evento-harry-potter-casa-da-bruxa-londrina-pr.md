@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Evento Harry Potter – Casa da Bruxa Londrina/PR"
 date: 2018-09-30T14:09:26
 lastmod: 2018-11-15T20:39:28
@@ -13,6 +13,7 @@ excerpt: ""
 commentCount: 0
 wpId: 1247
 draft: false
+aliases: ["/2018/09/30/evento-harry-potter-casa-da-bruxa-londrina-pr/"]
 ---
 
 Antes TARDIS do que nunca, não é mesmo?!

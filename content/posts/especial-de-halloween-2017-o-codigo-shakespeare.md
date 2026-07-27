@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Especial de Halloween 2017 – O Código Shakespeare"
 date: 2018-01-13T23:30:28
 lastmod: 2018-01-13T23:30:28
@@ -13,6 +13,7 @@ excerpt: "Sejam bem vindos ao Especial de Hallowheen 2017!! Hoje resolvi trazer 
 commentCount: 0
 wpId: 1147
 draft: false
+aliases: ["/2018/01/13/especial-de-halloween-2017-o-codigo-shakespeare/"]
 ---
 
 Sejam bem vindos ao Especial de Hallowheen 2017!!

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Especial Aniversário da Série 2018!"
 date: 2018-12-24T15:07:45
 lastmod: 2018-12-24T15:07:45
@@ -13,6 +13,7 @@ excerpt: "Bem vindos a mais uma viagem pelo tempo e espaço! E hoje não é um P
 commentCount: 0
 wpId: 1257
 draft: false
+aliases: ["/2018/12/24/especial-aniversario-da-serie-2018/"]
 ---
 
 Bem vindos a mais uma viagem pelo tempo e espaço!

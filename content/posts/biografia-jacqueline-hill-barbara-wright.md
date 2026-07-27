@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Biografia Jacqueline Hill – Barbara Wright"
 date: 2025-07-01T16:39:49
 lastmod: 2025-07-01T16:41:44
@@ -13,6 +13,7 @@ excerpt: "Sejam bem-vindos a mais uma viagem pelo tempo e espaço! Eu sou a Pame
 commentCount: 0
 wpId: 1351
 draft: false
+aliases: ["/2025/07/01/biografia-jacqueline-hill-barbara-wright/"]
 ---
 
 Sejam bem-vindos a mais uma viagem pelo tempo e espaço!

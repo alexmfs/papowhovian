@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Biografia Peter Davison"
 date: 2016-04-13T19:59:28
 lastmod: 2017-04-08T07:19:28
@@ -13,6 +13,7 @@ excerpt: "&nbsp; Imagina quatro sortudas crianças conversando com seus amiguinh
 commentCount: 0
 wpId: 997
 draft: false
+aliases: ["/2016/04/13/biografia-peter-davison/"]
 ---
 
 [*](http://papowhovian.com.br/wp-content/uploads/2016/02/quinto.jpg)

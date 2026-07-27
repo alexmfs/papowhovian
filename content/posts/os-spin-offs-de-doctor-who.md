@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Os Spin-Offs de Doctor Who"
 date: 2017-09-17T22:29:09
 lastmod: 2018-01-04T03:49:29
@@ -13,6 +13,7 @@ excerpt: "Hoje é dia de inovar aqui no Papo Whovian depois de muito tempo falan
 commentCount: 0
 wpId: 1120
 draft: false
+aliases: ["/2017/09/17/os-spin-offs-de-doctor-who/"]
 ---
 
 Hoje é dia de inovar aqui no Papo Whovian depois de muito tempo falando sobre biografias e companions. Resolvi mudar um pouco o rumo da prosa porque preciso confessar: até eu já estava ficando cansada de falar sempre sobre biografias e companions hahahah.

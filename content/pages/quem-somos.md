@@ -12,7 +12,7 @@ draft: false
 
    Muito prazer, eu sou a Pamella! Uma paranaense que curte muito ficção científica, filmes de ação, aventura, suspense, games, livros, história em quadrinhos, etc, etc, etc…
 
-    Whovian desde 2012 por um **[total acaso na TV](http://papowhovian.com.br/2016/01/22/o-inicio-de-tudo/)**, esse ano decidi aproximar mais as pessoas do Universo Whovian criando um site onde poderemos ter vários Papos Whovians bem maneiros!
+    Whovian desde 2012 por um **[total acaso na TV](/o-inicio-de-tudo/)**, esse ano decidi aproximar mais as pessoas do Universo Whovian criando um site onde poderemos ter vários Papos Whovians bem maneiros!
 
     Quer conhecer mais sobre mim?? Me siga nas redes sociais:
 

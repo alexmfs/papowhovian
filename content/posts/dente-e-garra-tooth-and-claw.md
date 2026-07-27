@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Dente e Garra – Tooth and Claw"
 date: 2018-06-28T21:59:16
 lastmod: 2018-06-28T22:06:03
@@ -13,6 +13,7 @@ excerpt: "Depois de ter ficado por quase dois meses sem nenhum conteúdo novo pr
 commentCount: 0
 wpId: 1198
 draft: false
+aliases: ["/2018/06/28/dente-e-garra-tooth-and-claw/"]
 ---
 
 Depois de ter ficado por quase dois meses sem nenhum conteúdo novo pra vocês no canal, eu finalmente caprichei no roteiro e gravei um vídeo incrível pra vocês! Eu sei, eu sei, dois meses sem conteúdo novo é muuuito tempo, mas como Doctor Who teve seus hiatos, o canal e o site infelizmente também teve seu mais longo hiato até o momento. E tomara que esse seja o último, pelo menos nos próximos meses. Mas, o texto ficou muito bom e o vídeo, melhor ainda!

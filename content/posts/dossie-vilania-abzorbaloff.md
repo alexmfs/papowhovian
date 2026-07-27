@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Dossiê Vilania: Abzorbaloff"
 date: 2018-07-22T12:14:31
 lastmod: 2018-09-27T21:02:27
@@ -13,6 +13,7 @@ excerpt: ""
 commentCount: 0
 wpId: 1226
 draft: false
+aliases: ["/2018/07/22/dossie-vilania-abzorbaloff/"]
 ---
 
 Bem-vindos a mais um Papo Whovian! E hoje é estreia de quadro aqui no Papo Whovian, hoje é estreia do Dossiê Vilania. Nesse quadro nós vamos fazer um raio-X completo dos vilões que já vimos na série Doctor Who e em seus spin-offs.

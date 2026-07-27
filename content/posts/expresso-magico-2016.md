@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Expresso Mágico 2016"
 date: 2016-09-30T16:33:33
 lastmod: 2017-06-18T20:17:24
@@ -13,6 +13,7 @@ excerpt: "Todos aqueles que me conhecem sabem que não é só Doctor Who que me 
 commentCount: 0
 wpId: 1040
 draft: false
+aliases: ["/2016/09/30/expresso-magico-2016/"]
 ---
 
 Todos aqueles que me conhecem sabem que não é só Doctor Who que me move, a saga Harry Potter também. E eu amo ir em eventos Potterheads e me encontrar com meus amigos Potterheads.

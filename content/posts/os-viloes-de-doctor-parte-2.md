@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Os Vilões de Doctor Who – Parte 2"
 date: 2017-05-07T14:42:28
 lastmod: 2018-06-09T18:30:11
@@ -13,6 +13,7 @@ excerpt: ""
 commentCount: 0
 wpId: 1083
 draft: false
+aliases: ["/2017/05/07/os-viloes-de-doctor-parte-2/"]
 ---
 
 Quando eu fiz o [**primeiro post sobre os vilões**](https://papowhovian.com.br/os-viloes-de-doctor-who/), eu fiz um pequeno resumo com alguns dos mais importantes vilões da série atual, e claro que muitos ficaram de fora. Vocês interagiram e pediram outros vilões, como os Sontarans e a Criança Vazia (Empty Child). Para completar uma pequena lista de cinco vilões, resolvi adicionar o Mestre, o Abzorbaloff e os Slitheen.

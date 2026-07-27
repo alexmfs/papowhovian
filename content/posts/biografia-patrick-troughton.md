@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Biografia Patrick Troughton"
 date: 2016-02-09T15:53:56
 lastmod: 2017-04-26T19:16:07
@@ -13,6 +13,7 @@ excerpt: ""
 commentCount: 0
 wpId: 975
 draft: false
+aliases: ["/2016/02/09/biografia-patrick-troughton/"]
 ---
 
 [![Segundo Doutor](http://papowhovian.com.br/wp-content/uploads/2016/02/segundo-150x150.jpg)](http://papowhovian.com.br/wp-content/uploads/2016/02/segundo.jpg)

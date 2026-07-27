@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Rose Marion Tyler"
 date: 2017-02-03T20:35:56
 lastmod: 2019-09-11T22:07:52
@@ -13,6 +13,7 @@ excerpt: "Querida por muitos, amada por muitos outros, e a preferida de muitíss
 commentCount: 0
 wpId: 1057
 draft: false
+aliases: ["/2017/02/03/rose-marion-tyler/"]
 ---
 
 [*](http://papowhovian.com.br/wp-content/uploads/2017/02/rose.jpg)

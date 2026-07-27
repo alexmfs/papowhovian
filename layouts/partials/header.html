@@ -17,7 +17,7 @@
         <li class="nav-item{{ if .IsHome }} is-active{{ end }}" role="menuitem">
           <a href="{{ .Site.BaseURL }}" class="nav-link">HOME</a>
         </li>
-        {{ range .Site.Taxonomies.category.Alphabetical }}
+        {{ range .Site.Taxonomies.categories.Alphabetical }}
           {{ $active := hasPrefix $.RelPermalink .Page.RelPermalink }}
           <li class="nav-item{{ if $active }} is-active{{ end }}" role="menuitem">
             <a href="{{ .Page.RelPermalink }}" class="nav-link">{{ .Page.Title }}</a>
@@ -37,7 +37,7 @@
   <nav class="mobile-nav" id="mobile-nav" aria-label="Menu mobile" aria-hidden="true">
     <ul class="mobile-menu">
       <li><a href="{{ .Site.BaseURL }}">HOME</a></li>
-      {{ range .Site.Taxonomies.category.Alphabetical }}
+      {{ range .Site.Taxonomies.categories.Alphabetical }}
       <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></li>
       {{ end }}
     </ul>

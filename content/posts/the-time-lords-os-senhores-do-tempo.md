@@ -1,4 +1,4 @@
-﻿---
+---
 title: "The Time Lords – Os Senhores do Tempo"
 date: 2016-01-23T13:12:59
 lastmod: 2018-01-04T03:28:01
@@ -13,6 +13,7 @@ excerpt: ""
 commentCount: 0
 wpId: 885
 draft: false
+aliases: ["/2016/01/23/the-time-lords-os-senhores-do-tempo/"]
 ---
 
 Olá gente, hoje gostaria de falar um pouquinho sobre os Senhores do Tempo. Então revisei e refiz o texto para deixar bonitinho aqui pra vocês, da mesma forma que regravei o vídeo sobre os Senhores do Tempo também. Claro que esse texto tá mais enxuto que o primeiro, mas é porque eu resolvi falar separadamente sobre cada características dos Time Lords, assim, a gente consegue se aprofundar um pouco mais em cada característica e peculiaridade e conhecer melhor cada uma delas. Então vamos lá!

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "David Tennant afirma: “Confie em mim. Eu sou O Doutor.”"
 date: 2017-02-14T01:33:01
 lastmod: 2018-01-04T04:20:57
@@ -13,6 +13,7 @@ excerpt: "David Tennant assegura às pessoas que tudo vai ficar bem em fala emoc
 commentCount: 0
 wpId: 1063
 draft: false
+aliases: ["/2017/02/14/david-tennant-afirma-confie-em-mim-eu-sou-o-doutor/"]
 ---
 
 # David Tennant assegura às pessoas que tudo vai ficar bem em fala emocionante

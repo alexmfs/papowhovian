@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Biografia David Tennant"
 date: 2016-10-27T23:19:33
 lastmod: 2017-04-08T07:19:28
@@ -13,6 +13,7 @@ excerpt: "E depois de ter ficado taaaanto tempo sem postar nada aqui, chegou a h
 commentCount: 0
 wpId: 1044
 draft: false
+aliases: ["/2016/10/27/biografia-david-tennant/"]
 ---
 
 [*](http://papowhovian.com.br/wp-content/uploads/2016/02/ten.jpg)

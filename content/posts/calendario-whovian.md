@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Calendário Whovian"
 date: 2016-05-08T04:01:48
 lastmod: 2017-04-08T07:19:28
@@ -13,6 +13,7 @@ excerpt: "Estava eu lá pensando em como começar a biografia do Paul McGann, e 
 commentCount: 0
 wpId: 1015
 draft: false
+aliases: ["/2016/05/08/calendario-whovian/"]
 ---
 
 Estava eu lá pensando em como começar a biografia do **[Paul McGann](http://papowhovian.com.br/biografia-paul-mcgann/)**, e pá: surge a ideia de fazer um calendário com as datas whovians mais importantes a serem lembradas.

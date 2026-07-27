@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Biografia Matt Smith"
 date: 2016-11-27T16:32:15
 lastmod: 2017-04-08T07:19:28
@@ -13,6 +13,7 @@ excerpt: "E hoje é dia de falar de mais um ator que mandou super bem em seu pap
 commentCount: 0
 wpId: 1049
 draft: false
+aliases: ["/2016/11/27/biografia-matt-smith/"]
 ---
 
 [![11](http://papowhovian.com.br/wp-content/uploads/2016/02/11.jpg)](http://papowhovian.com.br/wp-content/uploads/2016/02/11.jpg)

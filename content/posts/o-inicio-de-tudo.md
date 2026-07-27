@@ -1,4 +1,4 @@
-﻿---
+---
 title: "O Início de Tudo"
 date: 2016-01-22T20:33:18
 lastmod: 2018-01-04T03:29:08
@@ -13,6 +13,7 @@ excerpt: ""
 commentCount: 2
 wpId: 871
 draft: false
+aliases: ["/2016/01/22/o-inicio-de-tudo/"]
 ---
 
 Olá gente, hoje gostaria de compartilhar com vocês como foi que eu conheci a série e resolvi criar um site e um canal sobre Doctor Who e sobre o início e retorno da série em 2005. Esse texto é uma review do original, assim como já regravei o vídeo que havia lançado em 2016, que aliás foi o primeiro do canal. Então vamos lá ver como foi que tudo começou!!

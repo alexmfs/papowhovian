@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Sem Doctor Who em 2016?"
 date: 2016-02-05T22:20:32
 lastmod: 2016-02-05T22:20:32
@@ -13,6 +13,7 @@ excerpt: "Sei que essa notícia já é um pouco velha, mas eu não poderia deixa
 commentCount: 0
 wpId: 947
 draft: false
+aliases: ["/2016/02/05/sem-doctor-who-em-2016/"]
 ---
 
 Sei que essa notícia já é um pouco velha, mas eu não poderia deixar de falar sobre ela aqui. Mesmo porque, essa seção do site será dedicada apenas para as notícias acerca da série, seus atores, spin-offs, etc. E notícia é notícia, não importa que já esteja um pouco velha.

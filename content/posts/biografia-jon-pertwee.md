@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Biografia Jon Pertwee"
 date: 2016-03-23T14:08:45
 lastmod: 2017-08-07T19:27:30
@@ -13,6 +13,7 @@ excerpt: "E hoje é dia de falarmos sobre quem deu vida ao terceiro doutor, Jon 
 commentCount: 2
 wpId: 990
 draft: false
+aliases: ["/2016/03/23/biografia-jon-pertwee/"]
 ---
 
 [*](http://papowhovian.com.br/wp-content/uploads/2016/02/terceiro.jpg)

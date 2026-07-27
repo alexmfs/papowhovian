@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Biografia Tom Baker"
 date: 2016-03-29T16:38:02
 lastmod: 2017-04-08T07:19:28
@@ -13,6 +13,7 @@ excerpt: "Continuando as biografias dos atores incríveis que deram vida às enc
 commentCount: 0
 wpId: 993
 draft: false
+aliases: ["/2016/03/29/biografia-tom-baker/"]
 ---
 
 Continuando as biografias dos atores incríveis que deram vida às encarnações do Doutor, vamos falar hoje sobre aquele que deixou seu Doutor famoso por usar um cachecol gigante e colorido. Siiim, estamos falando de Tom Baker, então vamos lá conhecer um pouquinho mais sobre esse ator??

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Os Vilões de Doctor Who"
 date: 2016-02-05T23:09:43
 lastmod: 2018-06-04T21:14:24
@@ -13,6 +13,7 @@ excerpt: ""
 commentCount: 2
 wpId: 949
 draft: false
+aliases: ["/2016/02/05/os-viloes-de-doctor-who/"]
 ---
 
 Alguns têm medo dos Wepping Angels (Anjos Lamentadores), outros do Silence (Silêncio), alguns odeiam o Master (Mestre) e outros acham as gordurinhas a coisa mais fofa do mundo. O fato é que o Doctor tem muitos inimigos universo afora, alguns bem temíveis e aterrorizadores. Confesso que eu mesma tenho medo de me encontrar com um deles por aí, porque sabemos que se isso acontecer com qualquer um de nós, só o Doctor poderá nos ajudar.

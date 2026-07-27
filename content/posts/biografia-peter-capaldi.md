@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Biografia Peter Capaldi"
 date: 2017-01-11T00:01:31
 lastmod: 2017-04-08T07:19:28
@@ -13,6 +13,7 @@ excerpt: "As festas de final de ano finalmente acabaram, as “férias” finalm
 commentCount: 0
 wpId: 1055
 draft: false
+aliases: ["/2017/01/11/biografia-peter-capaldi/"]
 ---
 
 [*](http://papowhovian.com.br/wp-content/uploads/2016/02/12.jpg)

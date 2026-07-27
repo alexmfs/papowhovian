@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Biografia Christopher Eccleston"
 date: 2016-08-13T02:57:05
 lastmod: 2017-04-08T07:19:28
@@ -13,6 +13,7 @@ excerpt: "E dando início às biografias dos atores da série atual, vamos falar
 commentCount: 0
 wpId: 1032
 draft: false
+aliases: ["/2016/08/13/biografia-christopher-eccleston/"]
 ---
 
 E dando início às biografias dos atores da série atual, vamos falar do Christopher Eccleston. Ele deu vida ao Nono Doutor, esquecido por muitos, amado por outros tantos whovians.

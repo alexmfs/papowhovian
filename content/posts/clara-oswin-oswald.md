@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Clara Oswin Oswald"
 date: 2016-01-28T14:51:30
 lastmod: 2017-04-08T07:19:28
@@ -13,6 +13,7 @@ excerpt: "Um assunto que sempre dividiu a opinião dos whovians do mundo todo fo
 commentCount: 2
 wpId: 931
 draft: false
+aliases: ["/2016/01/28/clara-oswin-oswald/"]
 ---
 
 [*](http://papowhovian.com.br/wp-content/uploads/2016/01/clara-e1453992367902.jpg)

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Biografia Sylvester McCoy"
 date: 2016-04-30T18:34:02
 lastmod: 2017-04-08T07:19:28
@@ -13,6 +13,7 @@ excerpt: "E hoje é dia de saber um pouquinho mais sobre aquele que deu vida ao 
 commentCount: 0
 wpId: 1004
 draft: false
+aliases: ["/2016/04/30/biografia-sylvester-mccoy/"]
 ---
 
 E hoje é dia de saber um pouquinho mais sobre aquele que deu vida ao Sétimo Doutor, Percy James Patrick Kent-Smith. Quem?? Você não tem a menor noção de quem eu tô falando?? E se eu disser Sylvester McCoy?? Melhorou?? Não muito?? Então vamos lá saber mais sobre o Sétimo Doctor logo vai.

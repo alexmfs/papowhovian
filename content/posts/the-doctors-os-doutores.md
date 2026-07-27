@@ -1,4 +1,4 @@
-﻿---
+---
 title: "The Doctors – Os Doutores e As Doutoras"
 date: 2023-01-04T20:06:00
 lastmod: 2023-01-04T20:07:32
@@ -13,6 +13,7 @@ excerpt: "Bem-vindos a mais uma viagem pelo tempo e espaço! Ao longo de seus qu
 commentCount: 2
 wpId: 942
 draft: false
+aliases: ["/2023/01/04/the-doctors-os-doutores/"]
 ---
 
 Bem-vindos a mais uma viagem pelo tempo e espaço!

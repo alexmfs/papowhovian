@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Biografia William Hartnell"
 date: 2016-01-27T17:19:35
 lastmod: 2019-09-02T22:07:20
@@ -13,6 +13,7 @@ excerpt: ""
 commentCount: 
 wpId: 924
 draft: false
+aliases: ["/2016/01/27/biografia-william-hartnell/"]
 ---
 
 Olá gente, bem vindos ao Papo Whovian e ao primeiro texto (e repaginado) das Biografias. Aqui nessa parte nós vamos falar sobre a vida dos atores e atrizes que passaram ou estão passando por Doctor Who. E nada melhor do que começar com o primeiro Doutor. O primeiro ator a dar vida a este personagem icônico foi William Henry Hartnell, também conhecido como Billy ou Bill Hartnell.

@@ -25,8 +25,8 @@
     <span class="meta-sep">|</span>
     <span class="meta-date">{{ partial "date-pt.html" .Date }}</span>
     <span class="meta-sep">|</span>
-    {{ range .Params.categories }}
-    <a class="meta-cat" href="{{ $.Site.BaseURL }}category/{{ . | urlize }}/">{{ . }}</a>
+    {{ range .GetTerms "categories" }}
+    <a class="meta-cat" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
     {{ end }}
     <span class="meta-sep">|</span>
     <span>0 Comentários</span>

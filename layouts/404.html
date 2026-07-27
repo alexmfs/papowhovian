@@ -1,0 +1,13 @@
+{{ define "main" }}
+<div class="content-full" style="text-align:center; padding: 80px 20px;">
+  <h1 style="font-size:4rem; margin-bottom:8px;">404</h1>
+  <p style="margin-bottom:24px;">Página não encontrada. Pode ter sido movida ou o endereço está errado.</p>
+  <a href="{{ .Site.BaseURL }}" style="color: var(--color-blue); font-weight:600;">← Voltar para a Home</a>
+</div>
+<script>
+(function () {
+  var m = window.location.pathname.match(/^\/\d{4}\/\d{2}\/\d{2}\/([^\/]+)\/?$/);
+  if (m) { window.location.replace('/' + m[1] + '/'); }
+})();
+</script>
+{{ end }}

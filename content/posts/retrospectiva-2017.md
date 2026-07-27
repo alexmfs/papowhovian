@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Retrospectiva 2017"
 date: 2018-01-08T23:03:45
 lastmod: 2018-01-08T23:03:45
@@ -13,6 +13,7 @@ excerpt: ""
 commentCount: 0
 wpId: 1142
 draft: false
+aliases: ["/2018/01/08/retrospectiva-2017/"]
 ---
 
 Olá gente! Resolvi fazer um apanhado de tudo o que rolou no Universo Whovian, tanto em Doctor who como no universo expandido, e trazer pra vocês pra gente relembrar os momentos whovians mais importantes do ano passado. Sei que tá saindo um pouco atrasado, mas antes TARDIS do que nunca, vamos relembrar o que rolou ano passado??

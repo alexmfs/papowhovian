@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Biografia Paul McGann"
 date: 2016-05-08T03:30:04
 lastmod: 2017-04-08T07:19:28
@@ -13,6 +13,7 @@ excerpt: "No último post falamos sobre Sylvester McCoy, o ator que deu vida ao 
 commentCount: 0
 wpId: 1012
 draft: false
+aliases: ["/2016/05/08/biografia-paul-mcgann/"]
 ---
 
 No último post falamos sobre **[Sylvester McCoy](http://papowhovian.com.br/biografia-sylvester-mccoy/)**, o ator que deu vida ao Sétimo Doutor, e com a sua biografia encerramos as biografias dos atores que interpretaram o Doctor na série clássica. No post de hoje vamos falar sobre quem deu vida ao Doutor do filme, o Oitavo Doutor, Paul McGann.

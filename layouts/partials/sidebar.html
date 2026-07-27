@@ -64,7 +64,7 @@
 <div class="sidebar-section">
   <h4 class="sidebar-heading">Categorias</h4>
   <ul class="sidebar-cat-list">
-    {{ range .Site.Taxonomies.category.ByCount }}
+    {{ range .Site.Taxonomies.categories.ByCount }}
     <li class="sidebar-cat-item">
       <a href="{{ .Page.RelPermalink }}" class="sidebar-cat-link">
         <span class="sidebar-cat-arrow" aria-hidden="true">&#8250;</span>
@@ -78,7 +78,7 @@
 <div class="sidebar-section">
   <h4 class="sidebar-heading">Tags</h4>
   <div class="sidebar-tags">
-    {{ range .Site.Taxonomies.tag.ByCount }}
+    {{ range .Site.Taxonomies.tags.ByCount }}
     <a href="{{ .Page.RelPermalink }}" class="sidebar-tag">{{ .Page.Title }}</a>
     {{ end }}
   </div>

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Especial de Natal 2018"
 date: 2019-01-02T17:30:52
 lastmod: 2019-01-02T17:30:52
@@ -13,6 +13,7 @@ excerpt: "Bem-vindos a mais uma viagem pelo tempo e espaço! E hoje é especial 
 commentCount: 0
 wpId: 1272
 draft: false
+aliases: ["/2019/01/02/especial-de-natal-2018/"]
 ---
 
 Bem-vindos a mais uma viagem pelo tempo e espaço! E hoje é especial de natal!
