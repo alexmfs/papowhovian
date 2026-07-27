@@ -1,7 +1,7 @@
 <div class="card-blog">
   {{ if .Params.thumbnail }}
   <a class="card-blog-img" href="{{ .RelPermalink }}">
-    <img src="{{ .Params.thumbnail | relURL }}" alt="{{ .Title }}" loading="lazy" />
+    <img src="{{ .Params.thumbnail | absURL }}" alt="{{ .Title }}" loading="lazy" />
   </a>
   {{ end }}
   <div class="card-blog-body">
